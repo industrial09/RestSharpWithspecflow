@@ -1,0 +1,13 @@
+﻿Notes about working with RestSharp & Specflow
+1) These frameworks need to be installed from references section
+ -- Specflow.Assist.Dynamic is installed to work dynamically with data tables
+
+ 2) For having a fake server with data to work with internally, json-server can be used.
+ installed through npm install -g json-server
+
+ 3) NUnit: Testig framework has been implemented
+ For further info: https://docs.nunit.org/2.6.4/constraintModel.html
+
+ 4) When adding the stepDEfinitions for every sentnce in the future file.
+ we need to Build the complete project again. So, in that way feature file recognizes the
+ corresponding step defs.
